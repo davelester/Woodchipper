@@ -1,13 +1,25 @@
-<html>
+    <html>
   <head>
       <meta charset="utf-8">
       <title>Woodchipper using Raphaël</title>
       <script src="jquery.js"></script>
       <script src="raphael.js"></script>
+      <script src="raphael.zoom.js" type="text/javascript" charset="utf-8"></script>
       <script src="woodchipper.js"></script>
   </head>
   
   <body>
+    <div id="buttons">
+      <input type="button" name="zoom_20" value="Zoom to 20%" class="button" onclick="setZoom(0.2)" />
+      <input type="button" name="zoom_50" value="Zoom to 50%" class="button" onclick="setZoom(0.5);setCircleStroke(30);" />
+      <input type="button" name="zoom_100" value="Zoom to 100%" class="button" onclick="setZoom(1)" />
+      <input type="button" name="zoom_200" value="Zoom to 200%" class="button" onclick="setZoom(2)" />
+    </div>
+
+
     <p>Woodchipper using Raphaël</p>
+    <script type="text/javascript">
+
+    </script>
   </body>
 </html>
